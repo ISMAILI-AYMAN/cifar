@@ -1,0 +1,6 @@
+services:
+  cifar:
+    image: cifar
+    build:
+      context: .
+      dockerfile: ./Dockerfile
